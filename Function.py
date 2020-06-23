@@ -33,3 +33,7 @@ userProfile = buildProfile('zhang', 'supent',
                            location = 'zhang',  # key = value
                            field = 'yanchao')
 print(userProfile)
+
+def GetFormattedName(first, last=''):
+    fullName = first + ' ' + last
+    return fullName.title()
